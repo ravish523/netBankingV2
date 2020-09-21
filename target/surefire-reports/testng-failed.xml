@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [inetBankingV2]">
+  <listeners>
+    <listener class-name="com.inetBanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="BankingApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetBanking.testCase.TC_HomePage_ArrivalNavigate_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ArrivalNavigate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCase.TC_HomePage_ArrivalNavigate_003 -->
+      <class name="com.inetBanking.testCase.TC_AddNewCustomer_002">
+        <methods>
+          <include name="AddCustomer"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCase.TC_AddNewCustomer_002 -->
+      <class name="com.inetBanking.testCase.TC_HomePage_004">
+        <methods>
+          <include name="ArrivalImageDescription"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCase.TC_HomePage_004 -->
+      <class name="com.inetBanking.testCase.TC_HomePage_005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="ArrivalImageDescription"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCase.TC_HomePage_005 -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [inetBankingV2] -->

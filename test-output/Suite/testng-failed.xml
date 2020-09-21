@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.inetBanking.testCase.BaseClass"/>
+      <class name="inetBankingV2.inetBankingV2.ExtentReport"/>
+      <class name="com.inetBanking.testCase.TC_LoginTest_001"/>
+      <class name="com.inetBanking.testCase.TC_AddNewCustomer_002"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.inetBanking.testCase.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCase.TC_LoginTest_001 -->
+      <class name="com.inetBanking.testCase.TC_AddNewCustomer_002">
+        <methods>
+          <include name="AddCustomer"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCase.TC_AddNewCustomer_002 -->
+      <class name="inetBankingV2.inetBankingV2.ExtentReport">
+        <methods>
+          <include name="guruLoginTest"/>
+          <include name="guruLogoutTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- inetBankingV2.inetBankingV2.ExtentReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

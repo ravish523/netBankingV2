@@ -1,0 +1,15 @@
+com\inetBanking\pageObjects\HomePage.class
+com\inetBanking\testCase\TC_HomePage_004.class
+com\inetBanking\testCase\TC_HomePage_slider_001.class
+com\inetBanking\testCase\TC_HomePage_ArrivalNavigate_003.class
+com\inetBanking\testCase\TC_LoginTest_001.class
+com\inetBanking\utilities\ReadConfig.class
+com\inetBanking\testCase\TC_AddNewCustomer_002.class
+com\inetBanking\utilities\Reporting.class
+com\inetBanking\pageObjects\NewCostomerPage.class
+com\inetBanking\testCase\TC_HomePage_007.class
+com\inetBanking\testCase\TC_HomePage_005.class
+com\inetBanking\testCase\TC_HomePage_Arrival_002.class
+com\inetBanking\pageObjects\LoginPage.class
+com\inetBanking\testCase\TC_HomePage_006.class
+com\inetBanking\testCase\BaseClass.class
