@@ -7,7 +7,7 @@ public class TC_HomePage_007 extends BaseClass {
 	@Test
 	public void AddBasketCapacityCheck() throws InterruptedException
 	{
-		driver.get("http://practice.automationtesting.in/product/selenium-ruby/");
+		driver.get("http://practice.automationtesting.in/");
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@name='quantity']")).sendKeys("450");
 		Thread.sleep(3000);
